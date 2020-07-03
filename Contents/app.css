@@ -1,1 +1,15 @@
 /* Custom CSS goes here */
+.container2{
+    display:flex;
+    align-items:top;
+}
+
+.text-col {
+    color: black;
+    text-align: left;
+    }
+
+.paragraph {
+    text-align: left;
+    top: 20px;
+}
