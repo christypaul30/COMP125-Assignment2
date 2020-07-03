@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Projects</title>
     <!--CSS section -->
     <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.min.css">
@@ -15,18 +15,18 @@
     <header>
         <nav class="navbar navbar-light" style="background-color: #e3f2fd;">
 
-            <a class="navbar-brand" href="index.html"></a>
+            <a class="navbar-brand" href="projects.html"></a>
             <img src="./Assets/images/Logo3.png" width="70" height="70" alt="Logo" loading="lazy">
           
-            <!-- This is where you get the toggle/hamburger button that drops down the navbar-->
+            <!-- Dropdown navbar-->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
-          
+          <!-- Links to other pages-->
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                  <a class="nav-link active" href="index.html"><i class="fas fa-user-alt"></i> About Me</a>
+                  <a class="nav-link" href="index.html"><i class="fas fa-user-alt"></i> About Me</a>
                 </li>                
 
                   <li class="nav-item">
@@ -44,17 +44,43 @@
     <main>
         <div class="container">
             <div class="jumbotron bg-#eba834 text-white"style="background-color:#eba834;">
-                <h1 class="display-4"> Projects</h1>                
-                
+                <h1 class="display-4-black"> Projects</h1>                
+                <p class="lead text-white">All the projects and hobbies I'm currently working on.</p>
               </div>
-
-            <div class = "container3">
-              <img src="./Assets/images/MobApp.jpg" alt="Mobile Application" width="200" height= "200";>
-              
-              <img src="./Assets/images/PLSQL-Tutorial.png" alt="Oracle SQL" width="200" height= "200";>
-
-              <img src="./Assets/images/Japanese.png" alt="Japanese" width="200" height= "200";>
-            </div>
+              <div class="album py-5 bg-light">
+                <div class="container">
+            <!--Images and Text-->
+            <div class="row">
+              <div class="col-md-4">
+                <div class="card mb-4 shadow-sm">
+                  <img src="./Assets/images/MobApp.jpg" width="100%" height="279" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" ><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></svg>
+                  <div class="card-body text-center">
+                    <p class="card-text">Mobile Application.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card mb-4 shadow-sm">
+                  <img src="./Assets/images/PLSQL-Tutorial.png" width="100%" height="279" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" ><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></svg>
+                  <div class="card-body text-center">
+                    <p class="card-text2">SQL and Database.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card mb-4 shadow-sm">
+                  <img src="./Assets/images/Japanese.png" width="100%" height="279" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" ><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></svg>
+                  <div class="card-body text-center">
+                    <p class="card-text3">Japanese.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                    </div>
+                  </div>
+                </div>
+              </div>
         </div>        
     </main>
 
